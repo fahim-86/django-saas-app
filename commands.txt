@@ -1,0 +1,8 @@
+---Windows---
+python -m venv venv
+.\venv\Scripts\activate
+
+---Ubuntu---
+python manage.py runserver
+python manage.py startapp
+pip install -r requirements.txt
