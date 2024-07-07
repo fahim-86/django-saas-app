@@ -90,6 +90,10 @@ DATABASES = {
     }
 }
 
+DATABASE_URL= config('DATABASE_URL', cast=str)
+
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
