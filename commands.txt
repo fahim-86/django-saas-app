@@ -3,6 +3,12 @@ python -m venv venv
 .\venv\Scripts\activate
 
 ---Ubuntu---
+python3 -m venv NAMEENV
+source venv/bin/activate
 python manage.py runserver
 python manage.py startapp
 pip install -r requirements.txt
+
+---Rarely used but important git commands---
+**stop tracking a file but still keep it in the repo
+--git update-index --skip-worktree file.txt

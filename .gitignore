@@ -1,4 +1,7 @@
 venv/
+src/fmhome/__pycache__/
+src/usrvisit/__pycache__/
+src/usrvisit/migrations/__pycache__/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
